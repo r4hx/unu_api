@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "unu_api"
+version = "0.2.3"
+description = "Библиотека для интеграции с биржой микрозадач unu.im"
+authors = ["Egorov Egor"]
+readme = "README.md"
+homepage = "https://egorovegor.ru"
+repository = "https://github.com/r4hx/unu_api/"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+black = "^21.11b1"
+pylint = "^2.11.1"
+bandit = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
