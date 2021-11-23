@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "unu_api"
-version = "0.2.3"
+version = "0.2.4"
 description = "Библиотека для интеграции с биржой микрозадач unu.im"
 authors = ["Egorov Egor"]
 readme = "README.md"
