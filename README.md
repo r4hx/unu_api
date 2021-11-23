@@ -33,7 +33,7 @@
 ## Установка
 
 ```shell
-pip install unu-api
+pip install unu_api
 ```
 
 ## Зависимости
