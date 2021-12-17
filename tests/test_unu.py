@@ -112,15 +112,6 @@ def test_get_reports():
     assert isinstance(request["reports"], list)
 
 
-def test_get_minter_wallet():
-    """
-    Тест метода получения идентификатора кошелька минтер
-    """
-    unu = Api(token=os.getenv("API_KEY"))
-    request = unu.get_minter_wallet()
-    assert request["success"] == "true"
-
-
 def test_get_expenses():
     """
     Тест метода проверки расходов
